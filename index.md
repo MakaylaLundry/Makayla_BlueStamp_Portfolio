@@ -45,7 +45,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 
 <iframe width="560" height="315" src="https://youtu.be/Nn2hlWvWxzw?si=3hA88gMOgFd6yoJa" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://youtu.be/Nn2hlWvWxzw?si=3hA88gMOgFd6yoJa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Schematics 
 ![image](https://github.com/MakaylaLundry/Makayla_BlueStamp_Portfolio/assets/174461885/e99708e3-fb21-4d33-b445-deb54800ddda)
