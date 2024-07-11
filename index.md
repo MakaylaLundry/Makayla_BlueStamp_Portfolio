@@ -45,7 +45,8 @@ For your second milestone, explain what you've worked on since your previous mil
 
 
 <iframe width="560" height="315" src="https://youtu.be/Nn2hlWvWxzw?si=3hA88gMOgFd6yoJa" allowfullscreen></iframe>
-https://youtu.be/Nn2hlWvWxzw?si=3hA88gMOgFd6yoJa
+[![Watch the video](https://img.youtube.com/vi/Nn2hlWvWxzw/0.jpg)](https://youtu.be/Nn2hlWvWxzw?si=3hA88gMOgFd6yoJa)
+
 To complete my first milestone, I developed a system where the LCD would display and decide whether or not the given plant needed water, and automatically start the pump if necessary. To achieve this, I connected the baseboard to the breadboard, which was crucial to the organization, while also providing 5v and GND connections.  Next, I integrated the LCD, soil moisture sensor, and pump into the system. My next step will be setting up the photoresistor to monitor light.
 
 # Schematics 
