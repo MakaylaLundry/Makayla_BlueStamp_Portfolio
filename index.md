@@ -31,20 +31,37 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 # Second Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+[![Watch the video](https://img.youtube.com/vi/Nn2hlWvWxzw/0.jpg)](https://youtu.be/Nn2hlWvWxzw?si=3hA88gMOgFd6yoJa)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
+In this milestone, I set up and got the photoresistor working for my system to track the light value, and whether that turns out to be high or low. This value is shown on the LCD, within the other values I did in my last milestone. For this to work, I had to try out a couple of different methods to organize and set up the photoresistor, while trying to reduce complications. I used a resistor to make that happen, plus connections along the side of the breadboard and in the analog. In my next and final milestone, I'll program and set up the rain sensor, ESP8266, cooling fan, and programmer adapter. 
+  
+# Code
 
+```c++
+//photoresistor
+#define LIGHTPIN A1          
+#define LEDPIN 7            
+//LightSensor Grove
+
+  int lightValue = analogRead(LIGHTPIN);  
+
+  if (lightValue >= 1000) {  
+    digitalWrite(LEDPIN, HIGH);  
+  } else {
+    digitalWrite(LEDPIN, LOW);  
+  }
+
+ lcd.clear();
+  lcd.print("Light Sensor");
+  lcd.setCursor(0, 1); // Set cursor to the first column (0) and second row (1)
+  lcd.print("Light: ");
+  lcd.print(lightValue);
+  delay(2000);
+
+```
 # First Milestone
 
-
-<iframe width="560" height="315" src="https://youtu.be/Nn2hlWvWxzw?si=3hA88gMOgFd6yoJa" allowfullscreen></iframe>
 [![Watch the video](https://img.youtube.com/vi/Nn2hlWvWxzw/0.jpg)](https://youtu.be/Nn2hlWvWxzw?si=3hA88gMOgFd6yoJa)
 
 To complete my first milestone, I developed a system where the LCD would display and decide whether or not the given plant needed water, and automatically start the pump if necessary. To achieve this, I connected the baseboard to the breadboard, which was crucial to the organization, while also providing 5v and GND connections.  Next, I integrated the LCD, soil moisture sensor, and pump into the system. My next step will be setting up the photoresistor to monitor light.
