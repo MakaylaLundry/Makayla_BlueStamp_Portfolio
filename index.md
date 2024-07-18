@@ -9,7 +9,7 @@ You should comment out all portions of your portfolio that you have not complete
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Makayla L | Chaparral High School | Electrical Engineering | Incoming Junior
+| Makayla L | Chaparral High School | Aerospace Engineering | Incoming Junior
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
@@ -22,7 +22,67 @@ You should comment out all portions of your portfolio that you have not complete
 
 In my final milestone, I implanted additional sensors to better monitor the plant’s environment. I incorporated temperature, light, humidity, and rain detection all onto the LCD. Additionally, an automated fan was added to regulate the temperature, in case of any overheating. Throughout these 3 weeks, I spent working on smart Irrigation, I found the most difficult in my last milestone, setting up the photometer, as there were no instructions provided, and I had to greatly modify the code to get the photometer to correctly detect light. I learned how to research efficiently and work diligently. I enjoyed wiring and building my first engineering project, so I plan to continue with Arduino and create additional projects to gain more experience. 
 
+# Code
 
+```c++
+// Raindrop 
+  int raindropValue = analogRead(RAINDROP_ANALOG);
+  lcd.setCursor(0, 0);
+  lcd.print("Raindrop: ");
+  if (raindropValue > 500) {
+    Serial.println("Rain detected!");
+    digitalWrite(LEDPIN2, HIGH);
+    lcd.print("Yes ");
+  } else {
+    digitalWrite(LEDPIN2, LOW);
+    lcd.print("No  ");
+  }
+  lcd.setCursor(0, 1);
+  lcd.print(raindropValue); 
+
+  delay(2500); //
+  lcd.clear();
+
+  // temperature and humidity 
+  float temperature = dht.readTemperature(); // Get the temperature value
+  float humidity = dht.readHumidity(); // Get the Humidity value
+
+  if (isnan(temperature) || isnan(humidity)) {
+    lcd.setCursor(0, 0);
+    lcd.print("DHT11 issue");
+    Serial.println("DHT11 issue");
+  } else {
+    lcd.setCursor(0, 0);
+    lcd.print("Temp: ");
+    lcd.print(temperature);
+    lcd.print(" C");
+
+    delay(2500); 
+    lcd.clear();
+
+    lcd.setCursor(0, 0);
+    lcd.print("Humidity: ");
+    lcd.print(humidity);
+    lcd.print(" %");
+
+    delay(2500); 
+    lcd.clear();
+
+    
+    if (temperature > 10) { 
+      digitalWrite(FAN, HIGH);
+      lcd.print("Fan: ON");
+    } else {
+      digitalWrite(FAN, LOW);
+      lcd.print("Fan: OFF");
+    }
+  }
+
+  delay(2500); 
+  lcd.clear();
+}
+
+```
 
 # Second Milestone
 
@@ -34,10 +94,11 @@ In this milestone, I set up and got the photoresistor working for my system to t
 # Code
 
 ```c++
-//photoresistor
+//Photoresistor
 #define LIGHTPIN A1          
-#define LEDPIN 7            
-//LightSensor Grove
+#define LEDPIN 7
+           
+//LightSensor
 
   int lightValue = analogRead(LIGHTPIN);  
 
