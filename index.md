@@ -17,9 +17,8 @@ You should comment out all portions of your portfolio that you have not complete
   
 # Final Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+[![Watch the video](https://img.youtube.com/vi/Nn2hlWvWxzw/0.jpg)]([[https://youtu.be/Nn2hlWvWxzw?si=3hA88gMOgFd6yoJa](https://youtu.be/J8xkz_8wU8k?si=DI6O8Y7e5TF3kY4R](https://youtu.be/Kht8bXbPvfU?si=4uK_B3hxmdJG1pcP)))
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 In my final milestone, I implanted additional sensors to better monitor the plant’s environment. I incorporated temperature, light, humidity, and rain detection all onto the LCD. Additionally, an automated fan was added to regulate the temperature, in case of any overheating. Throughout these 3 weeks, I spent working on smart Irrigation, I found the most difficult in my last milestone, setting up the photometer, as there were no instructions provided, and I had to greatly modify the code to get the photometer to correctly detect light. I learned how to research efficiently and work diligently. I enjoyed wiring and building my first engineering project, so I plan to continue with Arduino and create additional projects to gain more experience. 
 
@@ -27,7 +26,7 @@ In my final milestone, I implanted additional sensors to better monitor the plan
 
 # Second Milestone
 
-[![Watch the video](https://img.youtube.com/vi/Nn2hlWvWxzw/0.jpg)](https://youtu.be/Nn2hlWvWxzw?si=3hA88gMOgFd6yoJa)
+[![Watch the video](https://img.youtube.com/vi/Nn2hlWvWxzw/0.jpg)]([https://youtu.be/Nn2hlWvWxzw?si=3hA88gMOgFd6yoJa](https://youtu.be/J8xkz_8wU8k?si=DI6O8Y7e5TF3kY4R))
 
 
 In this milestone, I set up and got the photoresistor working for my system to track the light value, and whether that turns out to be high or low. This value is shown on the LCD, within the other values I did in my last milestone. For this to work, I had to try out a couple of different methods to organize and set up the photoresistor, while trying to reduce complications. I used a resistor to make that happen, plus connections along the side of the breadboard and in the analog. In my next and final milestone, I'll program and set up the rain sensor, ESP8266, cooling fan, and programmer adapter. 
