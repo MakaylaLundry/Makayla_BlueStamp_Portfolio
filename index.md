@@ -78,7 +78,7 @@ In my final milestone, I implanted additional sensors to better monitor the plan
 
 # Second Milestone
 
-[![Watch the video](<iframe width="560" height="315" src="https://www.youtube.com/embed/J8xkz_8wU8k?si=424LsY4e8WvYIOo2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>)
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/J8xkz_8wU8k?si=424LsY4e8WvYIOo2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 In this milestone, I set up and got the photoresistor working for my system to track the light value, and whether that turns out to be high or low. This value is shown on the LCD, within the other values I did in my last milestone. For this to work, I had to try out a couple of different methods to organize and set up the photoresistor, while trying to reduce complications. I used a resistor to make that happen, plus connections along the side of the breadboard and in the analog. In my next and final milestone, I'll program and set up the rain sensor, ESP8266, cooling fan, and programmer adapter. 
