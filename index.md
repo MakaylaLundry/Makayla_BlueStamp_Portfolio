@@ -8,7 +8,6 @@ Unlike humans, plants can't go to a doctor, ask for food, or move to a better lo
   
 # Final Milestone
 
-[![Watch the video](https://img.youtube.com/vi/Kht8bXbPvfU/0.jpg)](https://youtu.be/Kht8bXbPvfU?si=4uK_B3hxmdJG1pcP)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Kht8bXbPvfU?si=FDYk4mAo7LxBtjM6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
@@ -110,13 +109,12 @@ In this milestone, I set up and got the photoresistor working for my system to t
 ```
 # First Milestone
 
-[![Watch the video](https://img.youtube.com/vi/Nn2hlWvWxzw/0.jpg)](https://youtu.be/Nn2hlWvWxzw?si=3hA88gMOgFd6yoJa)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Nn2hlWvWxzw?si=En3DuM8xwYLl7Otw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 To complete my first milestone, I developed a system where the LCD would display and decide whether or not the given plant needed water, and automatically start the pump if necessary. To achieve this, I connected the baseboard to the breadboard, which was crucial to the organization, while also providing 5v and GND connections.  Next, I integrated the LCD, soil moisture sensor, and pump into the system. My next step will be setting up the photoresistor to monitor light.
 
 # Schematics 
 ![image](https://github.com/MakaylaLundry/Makayla_BlueStamp_Portfolio/assets/174461885/e99708e3-fb21-4d33-b445-deb54800ddda)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Nn2hlWvWxzw?si=En3DuM8xwYLl7Otw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 # Code
 
