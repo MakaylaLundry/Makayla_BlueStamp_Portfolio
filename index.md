@@ -1,5 +1,5 @@
 # Automatic irrigration and plant watering system
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+Unlike humans, plants can't go to a doctor, ask for food, or move to a better location. However, with the automated irrigation system and various sensors, we can create a system that displays the plant's needs on an LCD screen. Whether it's efficient light, hydration, humidity, or temperature, this irrigation system has got you and your plants covered. While you can't directly ask a plant what it needs, by using smart Irrigation, we can come close to understanding it!
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
