@@ -1,6 +1,4 @@
 theme: jekyll-theme-minimal
 markdown: kramdown
 
-<div class="slide" style="text-align: center; margin: 20px 0;"> 
-  <img src="IMG_2089.jpg" alt="Makayla L" style="max-width: 100%; height: auto; border-radius: 50%;">
-</div> 
+logo: IMG_2089.jpg
