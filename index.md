@@ -1,13 +1,3 @@
----
-layout: default
-title: Smart-Irrigation
----
-
-# Smart-Irrigation
-
-## Makayla's Engineering Portfolio
-
-[View the Project on GitHub](https://github.com/MakaylaLundry/Smart-Irrigation)
 
 <!-- Slide section with the image -->
 <div class="slide" style="text-align: center; margin: 20px 0;">
