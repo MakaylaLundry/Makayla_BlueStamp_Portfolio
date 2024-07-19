@@ -1,7 +1,7 @@
 # Automatic irrigration and plant watering system
 Unlike humans, plants can't go to a doctor, ask for food, or move to a better location. However, with the automated irrigation system and various sensors, we can create a system that displays the plant's needs on an LCD screen. Whether it's efficient light, hydration, humidity, or temperature, this irrigation system has got you and your plants covered. While you can't directly ask a plant what it needs, by using smart Irrigation, we can come close to understanding it!
 
-![Headstone Image](IMG_2089.jpg)
+![Headstone Image]()
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
