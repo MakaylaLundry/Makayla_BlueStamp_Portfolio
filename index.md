@@ -9,6 +9,11 @@ Unlike humans, plants can't go to a doctor, ask for food, or move to a better lo
 <div class="slide" style="text-align: center; margin: 20px 0;">
   <img src="IMG_2089.jpg" alt="Makayla L" style="max-width: 100%; height: auto; border-radius: 50%;">
 </div>
+
+<div class="author-image" style="float: left; margin-right: 20px;">
+  <img src="{{ site.author_image }}" alt="Makayla L" style="max-width: 150px; height: auto; border-radius: 50%;">
+</div>
+
   
 # Final Milestone
 
