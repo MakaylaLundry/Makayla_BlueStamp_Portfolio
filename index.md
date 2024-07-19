@@ -8,7 +8,7 @@ Unlike humans, plants can't go to a doctor, ask for food, or move to a better lo
   
 # Final Milestone
 
-[![Watch the video](https://img.youtube.com/vi/Kht8bXbPvfU/0.jpg)](https://youtu.be/Kht8bXbPvfU?si=4uK_B3hxmdJG1pcP)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Kht8bXbPvfU?si=FDYk4mAo7LxBtjM6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 In my final milestone, I implanted additional sensors to better monitor the plant’s environment. I incorporated temperature, light, humidity, and rain detection all onto the LCD. Additionally, an automated fan was added to regulate the temperature, in case of any overheating. Throughout these 3 weeks, I spent working on smart Irrigation, I found the most difficult in my last milestone, setting up the photometer, as there were no instructions provided, and I had to greatly modify the code to get the photometer to correctly detect light. I learned how to research efficiently and work diligently. I enjoyed wiring and building my first engineering project, so I plan to continue with Arduino and create additional projects to gain more experience. 
