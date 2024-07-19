@@ -8,6 +8,7 @@ Unlike humans, plants can't go to a doctor, ask for food, or move to a better lo
   
 # Final Milestone
 
+[![Watch the video](https://img.youtube.com/vi/Kht8bXbPvfU/0.jpg)](https://youtu.be/Kht8bXbPvfU?si=4uK_B3hxmdJG1pcP)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Kht8bXbPvfU?si=FDYk4mAo7LxBtjM6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
